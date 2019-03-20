@@ -1,0 +1,144 @@
+.navbar-collapse ul li a{
+    display: block!important;
+    padding-right: 50px!important;
+    border: 3px!important;
+    /*background: #afafaf;*/
+    color: aqua;
+    text-align: center!important;
+    justify-content: center!important;
+       float: none;
+      display: inline-block;
+
+
+}
+.navbar-collapse ul li a:hover{
+    display: block;
+    background: gold ;
+    text-align: center!important;
+    transition: background-color  0.9s ease;
+
+
+}
+.navbar-collapse a{
+    color: #000000!important;
+    font-family: "Bodoni";
+}
+.navbar-nav
+{
+    background: goldenrod!important;
+}
+.navbar-collapse
+{
+    /*background: goldenrod!important;*/
+}
+.navbar-brand
+{
+    background: rgba(0, 0, 0, 0.9);
+    padding-right: 20px!important;
+    text-decoration:none;
+    align-items: center!important;
+    align-content: center!important;
+    font-family: "serif";
+
+}
+.navbar-brand h2
+{
+    color: goldenrod;
+    font-size: 19px;
+    /*font-weight: ;*/
+    font-style: italic;
+}
+.navbar-collapse ul li a{
+    text-align: left!important;
+}
+.container h2 {
+   position: absolute;
+   top: 250px;
+   left: 520px;
+   width: 27%;
+    font-size: 34px;
+    font-family: Neue Helvetica;
+    background: rgba(0, 0, 0, 0.7)
+}
+.text-color
+{
+    color: goldenrod!important;
+}
+.furniture_area {
+  background: #f9f9ff; }
+
+.furniture_inner {
+  margin-bottom: -30px; }
+
+.furniture_item {
+  margin-bottom: 30px; }
+  .furniture_item img {
+    border-radius: 5px; }
+  .furniture_item h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    transition: all 300ms linear 0s; }
+  .furniture_item p {
+    margin-bottom: 0px;
+  }
+  .furniture_item:hover h4 {
+    color: #faba00;
+  }
+
+  .img-fluid
+  {
+ transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(3px);
+  transform: scale(0.8);
+  }
+  .img-fluid:hover
+  {
+     filter: blur(0);
+  transform: scale(1);
+  /*background-color: rgba(0, 0, 0, 0.70) !important;*/
+  }
+.textbox {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+text-align:center;
+}
+.textbox h4 {
+    font-size: 2em;
+    color: #FFF;
+    margin-top: 3.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+/*.gallery1 {*/
+/*position:relative;*/
+/*}*/
+/*.gallery1 .textbox {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*-webkit-transform: scale(0);*/
+    /*transform: scale(0);*/
+    /*background-color: rgba(10, 36, 83, 0.62);*/
+/*}*/
+/*.furniture_item:hover .textbox {*/
+	/*-webkit-transform: scale(1);*/
+	/*transform: scale(1);*/
+
+/*}*/
+
+
+
+/*///*/
+
+/*<div class="copy">*/
+		        /*<p>© 2018 © THUNDERBOLT . All Rights Reserved | Design by <a href="index.php">THUNDER</a> </p>*/
+		    /*</div>*/
+/*footer end*/

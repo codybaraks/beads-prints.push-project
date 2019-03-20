@@ -1,0 +1,31 @@
+
+.copy {
+    text-align: center;
+      background-color: rgb(9, 1, 14) !important;
+    padding: 20px!important;
+
+}
+.copy p {
+    color: #afafaf;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 1em;
+    margin-top: 40px;
+}
+.copy p a {
+    color: #ffce14;
+    text-decoration: none;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.copy p a:hover{
+	color:#fff;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
