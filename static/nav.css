@@ -14,7 +14,7 @@
 .navbar-collapse ul li a:hover{
     display: block;
     background: gold ;
-    text-align: center!important;
+    /*text-align: center!important;*/
     transition: background-color  0.9s ease;
 
 

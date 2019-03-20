@@ -27,6 +27,11 @@ def navigation():
     return render_template('Home.html')
 
 
+@app.route('/faq')
+def faq():
+    return render_template('faq.html')
+
+
 @app.route('/delivery')
 def charges():
     # if session.get('names') == None:
