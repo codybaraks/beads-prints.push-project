@@ -1,0 +1,120 @@
+{% extends 'Navigation.html' %}
+
+{% block body %}
+
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="../static/img/interior1.png" alt="First slide" width="200px"
+                     height="900px">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Company History</h3>
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="../static/img/interior2.png" alt="Second slide" width="200px"
+                     height="900px">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="../static/img/Untitled design.png" alt="Third slide" width="200px"
+                     height="900px">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive" style="color: #ffffff">Slight mask</h3>
+                <p style="color: #ffffff">Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+    <!--/.Controls-->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <!--<h2 class="section-heading">At Your Service</h2>-->
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-5x fa-eye "></i>
+                        <h3 class="mb-3" style="color: #665600">Company History</h3>
+                        <p class="text-muted mb-0">Beads and prints Africa was officially registered in December 2015 as
+                            an interior
+                            design company. Since then the company has grown to incorporate
+                            furniture leasing at a very pocket friendly price.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-info fa-5x "></i>
+                        <h3 class="mb-3" style="color: #665600">What we do</h3>
+                        <p class="text-muted mb-0">The company serves both corporate and personal needs, from leasing of
+                            office
+                            furniture, home and decor as well as sale of gently used furniture from
+                            those in our inventory that have ran their course</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-bullseye fa-5x"></i>
+                        <h3 class="mb-3" style="color: #665600">Our Strategy</h3>
+                        <p class="text-muted mb-0">Beads and prints aims at being the market leader in affordable
+                            furniture leasing; and
+                            the go-to for all thing space, planning and design.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fa fa-space-shuttle fa-5x"></i>
+                        <h3 class="mb-3" style="color: #665600">Mission statement</h3>
+                        <p class="text-muted mb-0">Beads and prints offers affordable, high quality furniture for
+                            office, home and
+                            events.</p>
+                        <h4>Values</h4>
+                        <li>Hospitality</li>
+                        <li>comfort</li>
+                        <li>affordability</li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}

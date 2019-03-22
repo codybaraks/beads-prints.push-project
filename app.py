@@ -1,6 +1,8 @@
 from flask import Flask,render_template,request,url_for,redirect,flash
 import mysql.connector as connector
 import uuid
+from mailchimp import Mailchimp
+import mailchimp
 from flask_mail import Message, Mail
 from itsdangerous import URLSafeSerializer, SignatureExpired
 app = Flask(__name__)
@@ -15,7 +17,7 @@ app.secret_key = 'super secret key'
 s = URLSafeSerializer('secretthistime!')
 
 
-db = connector.connect(host="localhost", user="root", passwd="root", database="Beadsprint")
+db = connector.connect(host="localhost", user="root", passwd="", database="beads")
 
 # @app.route('/')
 # def hello_world():
@@ -30,6 +32,11 @@ def navigation():
 @app.route('/faq')
 def faq():
     return render_template('faq.html')
+
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 
 @app.route('/delivery')
@@ -64,37 +71,26 @@ def contact():
             if sql:
                 email = request.form['email']
                 phone = request.form['phone']
-                token = s.dumps(email, salt='email-confirm')
+                apiKey = 'bde35c865cb5d38188ca0a60e3e3e538-us20';
+                listID = '38df0e7c26';
+
+                api = mailchimp.Mailchimp(apiKey)
+                api.lists.subscribe(listID, {'email': 'earvinbaraka@gmail.com'})
+
+
                 print(email)
                 cursor = db.cursor()
-                token = uuid.uuid4().hex.upper()
                 sql2 = "INSERT INTO `delivery`(`phone`, `email`) VALUES (%s,%s)"
                 val = (phone, email)
                 cursor.execute(sql2, val)
                 db.commit()
                 flash("will receive notification")
-                page = render_template('delivery_output.html')
-
-                msg = Message(subject='Order received', sender='earvinbaraka@gmail.com',
-                              recipients=[request.form['email']])
-                link = url_for('conf_email', token=token,page=page, _external=True)
-                msg.body = render_template('sentmail.html', token=token, link=link)
-                mail.send(msg)
 
                 flash('Link sent to your Email')
             return redirect(url_for('navigation'))
         return render_template('funiture order.html')
 
 
-@app.route('/conf_email/<token>')
-def conf_email(token):
-    try:
-        email = s.loads(token, salt='email-confirm')
-    except SignatureExpired:
-        return '<h1>The token is expired!</h1>'
-    # return '<h1>The token works!</h1>'
-    # return render_template('index.html')
-    return redirect(url_for('navigation'))
 
 if __name__ == '__main__':
     app.run()

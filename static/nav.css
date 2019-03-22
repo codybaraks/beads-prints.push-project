@@ -115,6 +115,33 @@ text-align:center;
     font-weight: 700;
     letter-spacing: 5px;
 }
+.mb-3
+{
+  color: red
+}
+.fa-bullseye
+{
+  color: goldenrod
+}
+.fa-space-shuttle
+{
+  color: goldenrod
+}
+.fa-info
+{
+  color: goldenrod
+}
+.fa-eye
+{
+  color: goldenrod
+}
+.fa {
+  color : red !important;
+}
+.text-muted
+{
+ color: rgb(9, 1, 14)!important
+}
 /*.gallery1 {*/
 /*position:relative;*/
 /*}*/
