@@ -6,18 +6,18 @@ import mailchimp
 from flask_mail import Message, Mail
 from itsdangerous import URLSafeSerializer, SignatureExpired
 app = Flask(__name__)
-app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'earvinbaraka@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Commandprompt.1'
-app.config['MAIL_USE_TLS'] = False
-app.config['MAIL_USE_SSL'] = True
-mail = Mail(app)
-app.secret_key = 'super secret key'
-s = URLSafeSerializer('secretthistime!')
+# app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
+# app.config['MAIL_PORT'] = 465
+# app.config['MAIL_USERNAME'] = 'earvinbaraka@gmail.com'
+# app.config['MAIL_PASSWORD'] = 'Commandprompt.1'
+# app.config['MAIL_USE_TLS'] = False
+# app.config['MAIL_USE_SSL'] = True
+# mail = Mail(app)
+# app.secret_key = 'super secret key'
+# s = URLSafeSerializer('secretthistime!')
 
 
-db = connector.connect(host="localhost", user="root", passwd="", database="beads")
+db = connector.connect(host="localhost", user="root", passwd="root", database="Beadsprint")
 
 # @app.route('/')
 # def hello_world():
@@ -89,7 +89,6 @@ def contact():
                 flash('Link sent to your Email')
             return redirect(url_for('navigation'))
         return render_template('funiture order.html')
-
 
 
 if __name__ == '__main__':
