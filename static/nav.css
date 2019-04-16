@@ -575,9 +575,9 @@ body
     padding:0 8px;
     content:attr(data-title);
     transition:0.5s 0.1s;
-    color:#fff;
+    color:#e0a800;
     font-weight:bold;
-    font-size:1.5em;
+    font-size:1.1em;
 }
 
   .textOverImage:after{
