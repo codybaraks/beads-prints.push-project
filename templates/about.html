@@ -1,7 +1,73 @@
-{% extends 'Navigation.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>Beads and prints</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+    <!--Carousel Wrapper-->
+    <!--///-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-{% block body %}
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
 
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  navbar-light bg-light ml-auto text-center">
+    <a class="navbar-brand" href="home.html"><h2>BEADS AND PRINTS</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">dd</span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav navbar-center ml-auto text-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="construct.html">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="products.html">Silver Package</a>
+                    <a class="dropdown-item" href="products.html">Gold Package</a>
+                    <a class="dropdown-item" href="products.html">Platinum Package</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="products.html">Customized package</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+        <!--    <li class="nav-item">-->
+        <!--<a class="nav-link " href="contact%20us.html">Contact Us</a>-->
+        <!--    </li>-->
+            <li class="nav-item">
+                <a class="nav-link " href="faq.html">Faq</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<hr>
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
     <ol class="carousel-indicators">
@@ -14,37 +80,37 @@
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <div class="view">
-                <img class="d-block w-100" src="../static/img/interior1.png" alt="First slide" width="200px"
-                     height="900px">
-                <div class="mask rgba-black-strong"></div>
+                <img class="d-block w-100" src="img/interior1.png" alt="First slide" width="200px"
+                     height="770px">
+                <!--<div class="mask rgba-black-light"></div>-->
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Company History</h3>
-                </p>
+                <h3 class="h3-responsive" style="color: #8b4513">Creativity</h3>
+                
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="background: rgba(0, 0, 0, 0.70)">
             <!--Mask color-->
             <div class="view">
-                <img class="d-block w-100" src="../static/img/interior2.png" alt="Second slide" width="200px"
-                     height="900px">
-                <div class="mask rgba-black-strong"></div>
+                <img class="d-block w-100" src="img/interior2.png" alt="Second slide" width="200px"
+                     height="770px">
+                <!--<div class="bg"></div>-->
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
+                <h3 class="h3-responsive" style="color: #8b4513">Design</h3>
+                <!--<p>Secondary text</p>-->
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="background: rgba(0, 0, 0, 0.70)">
             <!--Mask color-->
             <div class="view">
-                <img class="d-block w-100" src="../static/img/Untitled design.png" alt="Third slide" width="200px"
-                     height="900px">
-                <div class="mask rgba-black-strong"></div>
+                <img class="d-block w-100" src="img/Untitled%20design%20(4).png" alt="Third slide" width="220px"
+                     height="770px">
+                <!--<div class="bg"></div>-->
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive" style="color: #ffffff">Slight mask</h3>
-                <p style="color: #ffffff">Third text</p>
+                <h3 class="h3-responsive" style="color: #8b4513">Excellence</h3>
+                <!--<p>Secondary text</p>-->
             </div>
         </div>
     </div>
@@ -59,62 +125,74 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-    <!--/.Controls-->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <!--<h2 class="section-heading">At Your Service</h2>-->
-                    <hr class="my-4">
-                </div>
+<hr>
+<!--/.Controls-->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <!--<h2 class="section-heading">At Your Service</h2>-->
+                <hr class="my-4">
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <i class="fa fa-5x fa-eye "></i>
-                        <h3 class="mb-3" style="color: #665600">Company History</h3>
-                        <p class="text-muted mb-0">Beads and prints Africa was officially registered in December 2015 as
-                            an interior
-                            design company. Since then the company has grown to incorporate
-                            furniture leasing at a very pocket friendly price.</p>
-                    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-5x fa-eye "></i>
+                    <h3 class="mb-3" style="color: #725304">Company History</h3>
+                    <p class="text-muted mb-0">Beads and prints Africa was officially registered in December 2015 as
+                        an interior
+                        design company. Since then the company has grown to incorporate
+                        furniture leasing at a very pocket friendly price.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <i class="fa fa-info fa-5x "></i>
-                        <h3 class="mb-3" style="color: #665600">What we do</h3>
-                        <p class="text-muted mb-0">The company serves both corporate and personal needs, from leasing of
-                            office
-                            furniture, home and decor as well as sale of gently used furniture from
-                            those in our inventory that have ran their course</p>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-info fa-5x "></i>
+                    <h3 class="mb-3" style="color: #725304">What we do</h3>
+                    <p class="text-muted mb-0">The company serves both corporate and personal needs, from leasing of
+                        office
+                        furniture, home and decor as well as sale of gently used furniture from
+                        those in our inventory that have ran their course</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <i class="fa fa-bullseye fa-5x"></i>
-                        <h3 class="mb-3" style="color: #665600">Our Strategy</h3>
-                        <p class="text-muted mb-0">Beads and prints aims at being the market leader in affordable
-                            furniture leasing; and
-                            the go-to for all thing space, planning and design.</p>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-bullseye fa-5x"></i>
+                    <h3 class="mb-3" style="color: #725304">Our Strategy</h3>
+                    <p class="text-muted mb-0">Beads and prints aims at being the market leader in affordable
+                        furniture leasing; and
+                        the go-to for all thing space, planning and design.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <i class="fa fa-space-shuttle fa-5x"></i>
-                        <h3 class="mb-3" style="color: #665600">Mission statement</h3>
-                        <p class="text-muted mb-0">Beads and prints offers affordable, high quality furniture for
-                            office, home and
-                            events.</p>
-                        <h4>Values</h4>
-                        <li>Hospitality</li>
-                        <li>comfort</li>
-                        <li>affordability</li>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <i class="fa fa-space-shuttle fa-5x"></i>
+                    <h3 class="mb-3" style="color: #725304">Mission statement</h3>
+                    <p class="text-muted mb-0">Beads and prints offers affordable, high quality furniture for
+                        office, home and
+                        events.</p>
+                    <!--<h4>Values</h4>-->
+                    <!--<li>Hospitality</li>-->
+                    <!--<li>comfort</li>-->
+                    <!--<li>affordability</li>-->
 
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    {% endblock %}
+    </div>
+    <br>
+    <br>
+
+
+</section>
+  <div class="position">
+
+        <div class="copy">
+            <p>© 2019 © Beads and prints . All Rights Reserved | Design by <a href="index.php">CodyBaraks</a></p>
+        </div>
+    </div>
+</body>
+</html>
