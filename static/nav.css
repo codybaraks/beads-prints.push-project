@@ -14,7 +14,8 @@
 }
 .navbar-collapse ul li a:hover{
     display: block;
-    background: gold ;
+    background: #9f6934 ;
+    color: white!important;
     /*text-align: center!important;*/
     transition: background-color  0.9s ease;
 
@@ -73,7 +74,7 @@ h2 display
     color: goldenrod!important;
 }
 .furniture_area {
-  background: burlywood;
+  background: burlywood;/*burlywood*/
 /*f9f9ff*/
 }
 
@@ -92,7 +93,7 @@ h2 display
     text-transform: uppercase;
     font-family: "Heebo", sans-serif;
     font-weight: bold;
-    color: #222222;
+    color: #222222;  /*#222222*/
     margin-top: 25px;
     margin-bottom: 12px;
     transition: all 300ms linear 0s; }
@@ -232,9 +233,23 @@ text-align:center;
      margin-top:-0px;
      vertical-align: bottom;
      width:100%;
-    height: 10%;
+    top: 30%;
+    height: 10px;
 
 }
+/*.text-uppercase*/
+/*{*/
+    /*!*font-size: 0.9em;*!*/
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
+/*}*/
+/*.text-uppercase > strong{*/
+    /*color: white;*/
+      /*font-size: 0.9em;*/
+/*}*/
+/*.d-inline-block*/
+/*{*/
+    /*color: orange!important;*/
+/*}*/
 .carousel-control-next-icon:after
 {
   content: '>';
