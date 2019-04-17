@@ -146,7 +146,7 @@ h2 display
      a:hover
     {
          text-decoration: none!important;
-        color: #a07404!important;
+        color: saddlebrown!important;
     }
     .content > .btn
     {
@@ -319,7 +319,10 @@ text-align:center;
 	color: #000000;
 	text-decoration: none;
 }
-
+/*.furniture_item  .btn:hover*/
+/*{*/
+    /*color: red!important;*/
+/*}*/
 
 /*// testinomials*/
 
