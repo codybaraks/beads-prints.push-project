@@ -65,6 +65,10 @@
     font-family: Neue Helvetica;
     background: rgba(0, 0, 0, 0.7)
 }
+.displayed img
+{
+    left: 50%;
+}
 h2 display
 {
     color: red;
@@ -102,7 +106,7 @@ h2 display
     margin-bottom: 0px;
   }
   .furniture_item:hover h4 {
-    color: #faba00;
+    color: #9f6934;
   }
  .dispay-2 img{
       position: absolute;
@@ -113,13 +117,13 @@ h2 display
   .img-fluid
   {
  transition: transform 1s, filter 2s ease-in-out;
-  filter: blur(3px);
-  transform: scale(0.8);
+  filter: blur(0px);
+  transform: scale(1);
   }
   .img-fluid:hover
   {
      filter: blur(0);
-  transform: scale(1);
+  transform: scale(1.2);
   /*background-color: rgba(0, 0, 0, 0.70) !important;*/
   }
   .blur
@@ -254,12 +258,16 @@ text-align:center;
 {
   content: '>';
   font-size: 34px;
-  color: #8b4513;
+  color: transparent;/*#8b4513*/
 }
 .carousel-control-prev-icon:after {
     content: '<';
     font-size: 34px;
-    color: #8b4513; /*#dba215*/
+    color: transparent; /*#dba215*/
+}
+.carousel-control-next-icon .arrow-next:after {
+    content: '>';
+    color: blue!important;
 }
 .bg{
    background: red;
@@ -404,7 +412,7 @@ body {
 {
     /*text-decoration: none;*/
     color: white;
-    background: #dba215;
+    background: #a07404;
 }
 .card-header b
 {
@@ -495,14 +503,15 @@ body {
 }
 .infomation img
 {
-    margin-right: 44%;
+    margin-right: 14%;
     height: 150px;
     width: 100px;
     justify-content: center;
 }
 .infomation
 {
-    left: 40%;
+    left: 30%;
+    /*justify-content: center;*/
     /*margin-right: 15%;*/
     /*padding-left: 30rem;*/
     justify-content: center;
@@ -517,6 +526,7 @@ body {
 .fa-star
 {
     color: goldenrod;
+    left: 30%;
 }
 .product
 {
