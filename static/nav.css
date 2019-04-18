@@ -79,11 +79,14 @@ h2 display
 }
 .furniture_area {
   background: burlywood;/*burlywood*/
+    /*width: 1400px;*/
 /*f9f9ff*/
 }
 
 .furniture_inner {
-  margin-bottom: -30px; }
+  margin-bottom: -30px;
+}
+
 
 .furniture_item {
   margin-bottom: 30px;
@@ -559,6 +562,16 @@ body {
     font-family: 'Playfair Display SC', serif;;
     background: rgba(0, 0, 0, 0.7)
 
+}
+.displayed h2
+{
+      /*margin-top:-270px;*/
+    /*margin-left: 460px;*/
+    /*padding-right: 60px;*/
+      /*margin-top:-270px;*/
+    top: 180px;
+    left: 460px;
+    padding-right: 10px;
 }
 .furniture_item .shop
 {
