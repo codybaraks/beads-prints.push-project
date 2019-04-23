@@ -536,7 +536,7 @@ body {
 }
 .product
 {
-    height: 700px!important;
+    height: 700px;
   transition: transform .5s, filter 1.5s ease-in-out;
   filter: grayscale(40%);
   transform: scale(1.0);
@@ -652,4 +652,11 @@ body
 {
     bottom: 40%;
     margin-left: 190px;
+}
+.navbar-toggle:before {
+    content:"Menu";
+    left:-50px;
+    top:4px;
+    position:absolute;
+    width:50px;
 }

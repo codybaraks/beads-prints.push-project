@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Beads and prints</title>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,12 +30,12 @@
 
 </head>
 
-<body >
+<body>
 <nav class="navbar navbar-expand-lg  navbar-light bg-light ml-auto text-center">
     <a class="navbar-brand" href="home.html"><h2>BEADS AND PRINTS</h2></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">dd</span>
+        <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,43 +70,94 @@
 
     </div>
 </nav>
+
 <br>
 <br>
 <!-- container-fluid -->
 <section class="furniture_area p_120" id="services">
+    <style>
+        @media only screen and (min-width: 80px) and (max-width: 435px) {
+            .product {
+                height: 300px!important;
+
+                width: 300px;
+            }
+
+        }
+             @media only screen and (min-width: 436px) and (max-width: 745px) {
+            .product {
+                height: 300px!important;
+
+                width: 500px;
+            }
+
+        }
+            @media only screen and (min-width: 80px) and (max-width: 435px) {
+                .furniture_item h3 {
+                    font-size: 12px!important;
+                    margin-left: 25px;
+                }
+                .furniture_item button {
+                    font-size: 10px!important;
+                    margin-left: -40px;
+                }
+            }
+
+        @media only screen and (min-width: 436px) and (max-width: 745px) {
+                .furniture_item h3 {
+                    font-size: 16px!important;
+                    margin-left: 25px;
+                }
+            .furniture_item button {
+                    font-size: 14px!important;
+                    margin-left: -40px;
+                }
+            }
+
+        @media only screen and (min-width: 436px) and (max-width: 745px) {
+                .furniture_item button {
+                    font-size: 13px!important;
+                    margin-left: 20px;
+                }
+            }
+    </style>
     <div class="container col-md-12">
-        <div class="jumbotron "style="background: burlywood"><!--#2C3539-->
-        <div class="furniture_inner row">
-            <div class="col-lg-4">
-                <div class="furniture_item">
 
-                    <img class="img-fluid product" src="../static/img/premium.jpg" style="border: red" alt="sit">
-                    <h3 style="font-size: 22px">More Customizeable, <br>More Variety</h3>
-                    <button class="btn shop"><a href="tier1.html">Shop Now </a><i class="fas fa-arrow-right"></i></button>
+        <div class="jumbotron " style="background: burlywood"><!--#2C3539-->
+            <div class="furniture_inner row">
+                <div class="col-lg-4">
+                    <div class="furniture_item">
+
+                        <img class="img-fluid product" src="../static/img/premium.jpg" style="border: red" alt="sit">
+                        <h3 style="font-size: 22px">More Customizable, <br>More Variety</h3>
+                        <button class="btn shop"><a href="tier1.html">Shop Now </a><i class="fas fa-arrow-right"></i>
+                        </button>
 
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="furniture_item">
-                    <img class="img-fluid product" src="../static/img/all%20the%20way.jpg" alt="live">
-                    <h3 style="font-size: 22px">Luxury all the way</h3>
-                    <button class="btn shop"><a href="tier1.html">Shop Now </a><i class="fas fa-arrow-right"></i></button>
+                <div class="col-lg-4">
+                    <div class="furniture_item">
+                        <img class="img-fluid product" src="../static/img/all%20the%20way.jpg" alt="live">
+                        <h3 style="font-size: 22px">Luxury all the way</h3>
+                        <button class="btn shop"><a href="tier1.html">Shop Now </a><i class="fas fa-arrow-right"></i>
+                        </button>
 
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="furniture_item">
-                    <img class="img-fluid product" src="../static/img/simple.jpg" alt="kitchen">
-                    <h3 style="font-size: 22px">Suitable for Tight Budget</h3>
-                    <button class="btn shop"><a href="tier1.html">Shop Now </a><i class="fas fa-arrow-right"></i></button>
+                <div class="col-lg-4">
+                    <div class="furniture_item">
+                        <img class="img-fluid product" src="../static/img/simple.jpg" alt="kitchen">
+                        <h3 style="font-size: 22px">Suitable for Tight Budget</h3>
+                        <button class="btn shop"><a href="tier1.html">Shop Now </a><i class="fas fa-arrow-right"></i>
+                        </button>
 
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 <br>
@@ -113,104 +165,103 @@
 
 
     <div class="copy">
-        <footer  class="page-footer mt-5 mb-4 text-center text-md-left">
+        <footer class="page-footer mt-5 mb-4 text-center text-md-left">
 
-          <!-- Grid row -->
-          <div class="row mt-3">
+            <!-- Grid row -->
+            <div class="row mt-3">
 
-            <!-- First column -->
+                <!-- First column -->
 
-            <div class="col-md-3 col-lg-4 col-xl-3 mb-4" style="margin-left: 84px">
-              <h6 class="text-uppercase font-weight-bold">
-                  <br>
-                <strong><img src="../static/img/Beads%20main.png" alt="" style="margin-right: 74px"></strong>
-              </h6>
-              <hr class="yellow accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 220px;margin-left: 22px">
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4" style="margin-left: 84px">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <br>
+                        <strong><img src="../static/img/Beads%20main.png" alt="" style="margin-right: 74px"></strong>
+                    </h6>
+                    <hr class="yellow accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 220px;margin-left: 22px">
 
-              <p style="margin-right: 64px">BEADS AND PRINTS OFFERS AFFORDABLE AND QUALITY FURNITURE FOR OFFICE,HOME AND EVENTS.</p>
+                    <p style="margin-right: 64px">BEADS AND PRINTS OFFERS AFFORDABLE AND QUALITY FURNITURE FOR
+                        OFFICE,HOME AND EVENTS.</p>
+                </div>
+                <!-- /.First column -->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <br>
+                        <strong>Products</strong>
+                    </h6>
+                    <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px">
+                    <p>
+                        <a href="products.html">SILVER</a>
+                    </p>
+                    <p>
+                        <a href="products.html">BRONZE</a>
+                    </p>
+                    <p>
+                        <a href="products.html">GOLD</a>
+                    </p>
+                    <p>
+                        <a href="products.html">PLATINUM</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">
+                        <br>
+                        <strong>Useful links</strong>
+                    </h6>
+                    <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 68px;">
+                    <p>
+                        <a href="tier1.html">OUR FURNITURE</a>
+                    </p>
+                    <p>
+                        <a href="about.html">ABOUT US</a>
+                    </p>
+                    <p>
+                        <a href="products.html">CONTACT US</a>
+                    </p>
+                    <p>
+                        <a href="faq.html">FAQ</a>
+                    </p>
+                </div>
+                <!--.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <br>
+                        <strong style="">Contact</strong>
+                    </h6>
+                    <hr class="orange accent-2-mb-4 mt-0 d-inline-block " style="width: 60px">
+                    <p>
+                        <i class="fas fa-info-circle mr-3"></i> FURNITURE LEASING COMPANY
+                    </p>
+                    <p>
+                        <i class="fas fa-home mr-3"></i>A22 Ridgeways Lane-Garden Estate, Nairobi
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> BEADSANDPRINTS@GMAIL.COM
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> +254 725 771 895
+                    </p>
+                    <p>
+                        <!--    <i class="fas fa-info-circle mr-3"></i>  22579 – 00400 Nairobi -->
+                    </p>
+                </div>
+
+
             </div>
-            <!-- /.First column -->
-
-            <!--Second column-->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase font-weight-bold">
-                  <br>
-                <strong>Products</strong>
-              </h6>
-              <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px">
-              <p>
-                <a href="products.html">SILVER</a>
-              </p>
-              <p>
-                <a href="products.html">BRONZE</a>
-              </p>
-              <p>
-                <a href="products.html">GOLD</a>
-              </p>
-              <p>
-                <a href="products.html">PLATINUM</a>
-              </p>
-            </div>
-            <!--/.Second column-->
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">
-                  <br>
-                <strong>Useful links</strong>
-              </h6>
-              <hr class="orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 68px;">
-              <p>
-                <a href="tier1.html">OUR FURNITURE</a>
-              </p>
-              <p>
-                <a href="about.html">ABOUT US</a>
-              </p>
-              <p>
-                <a href="products.html">CONTACT US</a>
-              </p>
-              <p>
-                <a href="faq.html">FAQ</a>
-              </p>
-            </div>
-            <!--.Third column-->
-
-            <!--Fourth column-->
-            <div class="col-md-4 col-lg-3 col-xl-3">
-              <h6 class="text-uppercase font-weight-bold">
-                  <br>
-                <strong style="">Contact</strong>
-              </h6>
-              <hr class="orange accent-2-mb-4 mt-0 d-inline-block " style="width: 60px">
-                  <p>
-                   <i class="fas fa-info-circle mr-3"></i> FURNITURE LEASING COMPANY
-              </p>
-              <p>
-                <i class="fas fa-home mr-3"></i>A22 Ridgeways Lane-Garden Estate, Nairobi
-              </p>
-              <p>
-                <i class="fas fa-envelope mr-3"></i> BEADSANDPRINTS@GMAIL.COM
-              </p>
-              <p>
-                <i class="fas fa-phone mr-3"></i> +254 725 771 895
-              </p>
-              <p>
-               <!--    <i class="fas fa-info-circle mr-3"></i>  22579 – 00400 Nairobi -->
-              </p>
-            </div>
-
-
-
-
-            </div>
-            <!-- Grid column -->
-
             <!-- Grid column -->
 
             <!-- Grid column -->
 
-          </footer>
+            <!-- Grid column -->
+
+        </footer>
         <p>© 2019 © Beads and prints . All Rights Reserved | Design by <a href="index.php">CodyBaraks</a></p>
     </div>
 </div>
