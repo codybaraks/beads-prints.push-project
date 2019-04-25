@@ -521,7 +521,9 @@
     </div>
 
 </section>
-
+<div class="floating-wpp"></div>
+<div class="call" title="+254 725-771-895"><img src="../static/call2.png" height="57" width="57" alt=""></div>
+<div class="email" title="beadsandprints@gmail.com"><a href="mailto:earvinbaraka@gmail.com?Subject=I would like to Enquire about"><img src="../static/email3.png" height="50" width="50" alt=""></a></div>
 <br>
 <br>
 <div class="position">
@@ -628,6 +630,26 @@
         <p>© 2019 © Beads and prints . All Rights Reserved | Design by <a href="index.php">CodyBaraks</a></p>
     </div>
 </div>
+<script type="text/javascript">
+    $(function () {
+        $('.floating-wpp').floatingWhatsApp({
+            phone: '+254725870880',
+            popupMessage: 'Welcome to Beads and Prints',
+            showPopup: true,
+            position: 'right', // left or right
+            autoOpen: false, // true or false
+            //autoOpenTimer: 4000,
+            message: 'Hello, I would like to order.',
+            //headerColor: 'orange', // enable to change msg box color
+            headerTitle: 'Whatsapp Message Box',
+        });
+    });
+    </script>
+<!--CSS-->
+<link rel="stylesheet" href="../static/floating-wpp.min.css">
 
+<!--JS-->
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="../static/js/floating-wpp.min.js"></script>
 </body>
 </html>

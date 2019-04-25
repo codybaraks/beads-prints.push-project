@@ -18,6 +18,7 @@
     <orderEntry type="library" name="tether" level="application" />
     <orderEntry type="library" name="all" level="application" />
     <orderEntry type="library" name="mdb" level="application" />
+    <orderEntry type="library" name="jquery-latest" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
