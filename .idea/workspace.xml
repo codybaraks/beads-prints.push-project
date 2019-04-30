@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f800b307-4046-469f-af9f-4758bd6dd027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/image/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/person 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/beads Home.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/beads contact us.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/beads faq.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/beads furniture.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotel contact.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotel rooms.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotel2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lib.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lib0001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lib2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lib20001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lib3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lib30001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/libc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/nanny faq.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/nanny1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/nanny10001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/nannys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/potfolio color.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Untitled design (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/porfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/floating-wpp.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/floating-wpp.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tier1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tier1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/view product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/view product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/images.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,9 +55,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/images.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -390,12 +357,12 @@
       <workItem from="1556188949515" duration="363000" />
       <workItem from="1556271358745" duration="11510000" />
       <workItem from="1556370768666" duration="1519000" />
-      <workItem from="1556608401532" duration="11212000" />
+      <workItem from="1556608401532" duration="12226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189136000" />
+    <option name="totallyTimeSpent" value="190150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +377,7 @@
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1659919" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1659919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -614,9 +581,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/images.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="51">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
