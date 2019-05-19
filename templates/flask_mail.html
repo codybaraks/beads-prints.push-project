@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Mail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/footer.css">
+    <link rel="stylesheet" href="../static/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body background="../static/images/potfolio%20color.jpg" class="portfolio">
+<button class="btn"><a href="portfolio.html">Go back</a></button>
+<h1>SENDING MAILS USING PYTHON-FLASK</h1>
+<br>
+<p>Weather your a developer or not, sending emails is part of our daily life. <br>The code Below shows and illustrates a
+    way
+    in which we can send emails using Python Flask Framework </p>
+<H4>In-order for this to work, you have to make sure "Access for less secure apps has been turned on",<br>Otherwise you
+    will
+    experience SMTP(Simple Mail Transfer Protocol) Authentication problems.<br>This is a security measure implemented by Google<br> Here is the link to Allow/Deny less
+    secure
+    Apps <i style="color: green" text-decoration="underline"> <a style="text-decoration: underline; color: green" c
+                                                                 href="https://www.google.com/settings/security/lesssecureapps">https://www.google.com/settings/security/lesssecureapps</a></i>
+</H4>
+<br>
+<h4>First, Import FLASK mail in your application.<i style="color: red">Line Number 4 Below</i></h4>
+<img src="../static/images/flask%20mail%20import.PNG" alt="ok" width="1200">
+<br>
+<br>
+<h5>Secondly, you will have to configure your Mail.Make sure the code matches the one on your server settings</h5>
+<h4>Navigate to your server settings:<br> Open email, GoTo Settings -> Accounts->Server Settings, Then check "Outgoing
+    server" section to view you port i.e "465"</h4>
+<img src="../static/images/mail%20configuration.PNG" alt="" width="1200">
+<h4>Next: make sure In code above, replace the app.config['MAIL_USERNAME'] with your actual gmail address. Same for password.</h4>
+<h4>Thats for <i style="color: red"> Line Number 14 and 15</i></h4>
+<br>
+<img src="../static/images/route%20email.PNG" alt="ok" width="1200">
+<h4>Then, to send the email, just do the following</h4>
+<h5>In the above code, replace recipients with whoever you want to send the email to. recipients is a list. So you can enter 1 or more email address as needed.</h5>
+<h4>Thats For <i style="color: red">Line Number 61 </i></h4>
+<H4>Look at <a target="_blank" style="color: orange;text-decoration: underline" href="https://stackoverflow.com/questions/22230372/flask-smtp-authentication-error">https://stackoverflow.com/questions/22230372/flask-smtp-authentication-error</a> for More Details</H4>
+<style>
+
+    button {
+        top: 10%;
+        margin-left: 0%;
+        background: #abdde5;
+        color: darkcyan;
+        position: relative;
+        left: 1100px;
+        margin-top: 10px;
+    }
+</style>
+</body>
+</html>
